@@ -10,12 +10,12 @@
 <style>
   :root {
     --bg: #000000;
-    --primary: #C4C94A;
+    --primary: #CA8A04;
     --cream: #F5F5DC;
     --cream-dim: rgba(245,245,220,0.55);
     --cream-faint: rgba(245,245,220,0.12);
     --border: rgba(245,245,220,0.1);
-    --border-strong: rgba(196,201,74,0.3);
+    --border-strong: rgba(202,138,4,0.3);
     --font-display: 'Bodoni Moda', serif;
     --font-heading: 'Syne', sans-serif;
     --font-body: 'Inter', sans-serif;
@@ -142,7 +142,7 @@
 
   /* ===================== CARDS ===================== */
   .card { border: 1px solid var(--border); padding: 28px 24px; position: relative; }
-  .card-accent { border-color: var(--border-strong); background: rgba(196,201,74,0.04); }
+  .card-accent { border-color: var(--border-strong); background: rgba(202,138,4,0.04); }
   .card-label { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--primary); margin-bottom: 12px; }
   .card-title { font-family: var(--font-heading); font-size: 22px; font-weight: 700; color: var(--cream); margin-bottom: 8px; }
   .card-body { font-size: 13px; color: var(--cream-dim); line-height: 1.6; }
@@ -175,7 +175,7 @@
   .compare-table td { padding: 11px 20px; border-bottom: 1px solid var(--border); vertical-align: middle; }
   .compare-table td.col-attr { color: var(--cream); font-size: 12px; letter-spacing: 0.05em; }
   .compare-table td.col-traditional { color: var(--cream-dim); text-align: center; }
-  .compare-table td.col-creative { background: rgba(196,201,74,0.12); text-align: center; color: var(--primary); font-weight: 500; }
+  .compare-table td.col-creative { background: rgba(202,138,4,0.12); text-align: center; color: var(--primary); font-weight: 500; }
   .compare-table tr:last-child td { border-bottom: none; }
 
   /* ===================== PROBLEM ITEMS ===================== */
@@ -238,7 +238,7 @@
 
   .channel-title { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--primary); margin-bottom: 14px; }
   .channel-block { border: 1px solid var(--border); padding: 24px; }
-  .channel-block.accent { border-color: var(--border-strong); background: rgba(196,201,74,0.03); }
+  .channel-block.accent { border-color: var(--border-strong); background: rgba(202,138,4,0.03); }
 
   .chart-wrap { width: 100%; height: clamp(140px, 22vh, 200px); position: relative; }
   .section-header { display: flex; flex-direction: column; gap: 10px; margin-bottom: 4px; }
@@ -470,7 +470,7 @@
         <div class="geo-point">Zero AI-native content studios</div>
         <div class="geo-point">Home market — low acquisition cost</div>
       </div>
-      <div class="geo-card" style="background:rgba(196,201,74,0.04); border-left:1px solid var(--border-strong); border-right:1px solid var(--border-strong);">
+      <div class="geo-card" style="background:rgba(202,138,4,0.04); border-left:1px solid var(--border-strong); border-right:1px solid var(--border-strong);">
         <div class="geo-role">Scale</div>
         <div class="geo-name">Dubai</div>
         <div class="geo-point">$2.5B+ digital ad spend annually</div>
@@ -639,7 +639,7 @@
           We become their invisible production partner — delivering under their brand, on their timeline.
         </div>
       </div>
-      <div style="background:rgba(196,201,74,0.03); padding:28px 24px; border-left:1px solid var(--border-strong);" class="anim-left d3">
+      <div style="background:rgba(202,138,4,0.03); padding:28px 24px; border-left:1px solid var(--border-strong);" class="anim-left d3">
         <div style="font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:var(--primary); margin-bottom:14px;">ICP 2 — Premium Fashion & Lifestyle Brands</div>
         <table class="data-table">
           <tbody>
@@ -705,7 +705,7 @@
         <div class="timeline-point">2–3 Lebanese agency partnerships</div>
         <div class="timeline-point">Confirm market readiness</div>
       </div>
-      <div class="timeline-item" style="background:rgba(196,201,74,0.03);">
+      <div class="timeline-item" style="background:rgba(202,138,4,0.03);">
         <div class="timeline-q">Q2–Q3 2026</div>
         <div class="timeline-title">Portfolio & Proof</div>
         <div class="timeline-point">10+ documented case studies</div>
@@ -721,7 +721,7 @@
         <div class="timeline-point">Target $15–20K/month revenue</div>
         <div class="timeline-point">White-label partnerships active</div>
       </div>
-      <div class="timeline-item" style="background:rgba(196,201,74,0.03);">
+      <div class="timeline-item" style="background:rgba(202,138,4,0.03);">
         <div class="timeline-q">Year 2–3</div>
         <div class="timeline-title">Scale</div>
         <div class="timeline-point">Leading AI studio in Lebanon</div>
@@ -928,14 +928,14 @@
         labels: months,
         datasets: [{
           data: data,
-          borderColor: '#C4C94A',
-          backgroundColor: 'rgba(196,201,74,0.07)',
+          borderColor: '#CA8A04',
+          backgroundColor: 'rgba(202,138,4,0.07)',
           borderWidth: 2,
           fill: true,
           tension: 0.4,
           pointRadius: 0,
           pointHoverRadius: 4,
-          pointHoverBackgroundColor: '#C4C94A'
+          pointHoverBackgroundColor: '#CA8A04'
         }]
       },
       options: {
@@ -946,10 +946,10 @@
           tooltip: {
             callbacks: { label: ctx => '$' + ctx.parsed.y + 'K / month' },
             backgroundColor: '#111',
-            borderColor: '#C4C94A',
+            borderColor: '#CA8A04',
             borderWidth: 1,
             titleColor: '#F5F5DC',
-            bodyColor: '#C4C94A'
+            bodyColor: '#CA8A04'
           }
         },
         scales: {
