@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Creative — Investor Deck 2026</title>
+<title>CREO — Investor Deck 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,400;1,500;1,600&family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
   :root {
@@ -16,8 +16,10 @@
     --cream-faint: rgba(245,245,220,0.12);
     --border: rgba(245,245,220,0.1);
     --border-strong: rgba(196,201,74,0.3);
+    --font-display: 'Bodoni Moda', serif;
     --font-heading: 'Syne', sans-serif;
     --font-body: 'Inter', sans-serif;
+    --gold: #CA8A04;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -74,15 +76,16 @@
 
   /* ===================== TYPOGRAPHY ===================== */
   .display {
-    font-family: var(--font-heading);
+    font-family: var(--font-display);
     font-size: clamp(52px, 7.5vw, 112px);
-    font-weight: 800;
+    font-weight: 600;
+    font-style: italic;
     line-height: 0.92;
     color: var(--cream);
-    letter-spacing: -0.04em;
+    letter-spacing: -0.03em;
   }
 
-  .display-accent { color: var(--primary); }
+  .display-accent { color: var(--gold); }
 
   .slide-label {
     font-family: var(--font-body);
@@ -130,7 +133,7 @@
     margin-top: 6px;
   }
 
-  .divider { width: 40px; height: 1px; background: var(--primary); }
+  .divider { width: 40px; height: 1px; background: var(--gold); }
 
   /* ===================== GRID LAYOUTS ===================== */
   .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
@@ -828,7 +831,7 @@
     <div class="anim-fade d3" style="display:flex; flex-direction:column; align-items:center; gap:8px; border-top:1px solid var(--border); padding-top:32px; width:260px;">
       <div style="font-family:var(--font-heading); font-size:20px; font-weight:700; color:var(--cream); letter-spacing:-0.01em;">Creative Studio</div>
       <div style="font-size:10px; letter-spacing:0.16em; text-transform:uppercase; color:var(--cream-dim);">Lebanon · Dubai · Paris</div>
-      <div style="font-size:11px; letter-spacing:0.06em; color:var(--primary); margin-top:4px;">giorgio@weezli.com</div>
+      <div style="font-size:11px; letter-spacing:0.06em; color:var(--gold); margin-top:4px;">giorgio@weezli.com</div>
     </div>
   </div>
 </div>
